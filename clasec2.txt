@@ -1,0 +1,28 @@
+Topic -A : amazon elastic compute cloud(amazon EC2)
+------------------------------------
+ec2 is nothing but its a virtual mechine
+- use secure, resizable compute capacity
+-
+
+#!/bin/bash
+# Use this for your user data (script from top to bottom)
+# install httpd (Linux version)
+yum update -y
+yum install -y httpd
+systemctl start httpd
+systemctl enable httpd
+echo "<h1>Hello World from $(hostname -f)</h1>" > /var/www/html/index.html
+
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html
+
+https://aws.amazon.com/ecs/
+https://aws.amazon.com/eks/
+https://aws.amazon.com/fargate/
+[5:05 PM] Nupur Agarwal
+https://docs.aws.amazon.com/outposts/latest/server-userguide/what-is-outposts.html
+What is AWS Outposts? - AWS Outposts
+AWS Outposts is a fully managed service that extends AWS infrastructure, services, APIs, and tools to customer premises.
+ An Outpost is a pool of AWS compute and storage capacity deployed at a custo...
+
+https://aws.amazon.com/cloudfront/
+https://blog.awsfundamentals.com/aws-edge-locations
