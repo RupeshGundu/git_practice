@@ -1,0 +1,229 @@
+<nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand " href="#">
+            <img src="logo.jpg" alt="Logo" width="50" height="40" class="d-inline-block align-text-top">rg service
+        </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-primary" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link primary" href="#">About</a>
+              </li>
+              <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li> -->
+              <li class="nav-item">
+                <a class="nav-link primary">Our Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link primary">How it works</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link primary">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link primary">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link primary">Contact</a>
+              </li>
+            </ul>
+             <div class="grid gap-2">
+              <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+              <button class="btn btn-outline-primary  " type="login">Login</button>
+              <button class="btn btn-outline-success " type="submit">Sign-up</button>
+             </div>
+          </div>
+        </div>
+      </nav>
+      <!-- Pricing -->
+      <div class="row row-cols-1 row-cols-md-3 g-4 ">
+        <div class="col text-center">
+          <div class="card h-100">
+            <h4>BASIC</h4>
+            <h1 id="Pricing">$25</h1>
+            <h5>Per Month</h5>
+            <div class="card-body">
+            <form>
+                <input type="radio">Custom charts</input><br>
+                <input type="radio">Unlimited plan</input><br>
+                <input type="radio">available to all</input>
+            </form>
+            </div>
+            <div class="card-footer">
+              <button type="button" class="btn btn-outline-primary">Save</button>
+            </div>
+          </div>
+        </div>
+        <div class="col text-center">
+            <div class="card h-100">
+              <h4>BASIC</h4>
+              <h1 id="Pricing">$25</h1>
+              <h5>Per Month</h5>
+              <div class="card-body">
+              <form>
+                  <input type="radio">Custom charts</input><br>
+                  <input type="radio">Unlimited plan</input><br>
+                  <input type="radio">available to all</input>
+              </form>
+              </div>
+              <div class="card-footer">
+                <button type="button" class="btn btn-outline-primary">Save</button>
+              </div>
+            </div>
+          </div>
+          <div class="col text-center">
+            <div class="card h-100">
+              <h4>BASIC</h4>
+              <h1 id="Pricing">$25</h1>
+              <h5>Per Month</h5>
+              <div class="card-body">
+              <form>
+                  <input type="radio">Custom charts</input><br>
+                  <input type="radio">Unlimited plan</input><br>
+                  <input type="radio">available to all</input>
+              </form>
+              </div>
+              <div class="card-footer">
+                <button type="button" class="btn btn-outline-primary">Save</button>
+              </div>
+            </div>
+          </div>
+        
+      </div>
+      <!-- our blog -->
+      <div class="jumbotron text-center">
+        <h1>Our BLog</h1>
+      </div>
+      
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="medaram.jpeg" width="10px" height="257px" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">MEDARAM</h5>
+              <p class="card-text">Located in the district of Warangal in Telangana, Medaram is a tiny village. With a scanty population of approximately 3000 people, the most noticeable thing about the dainty village is it's rich and vibrant aesthetics. Medaram is popular not only in India, but is a name known in the world due</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="WARANGAL.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">WARANGAL</h5>
+              <p class="card-text">Warangal takes you back to the era of kings and queens with its beautiful historical sites and an impressive natural beauty with Parkhal Lake being worth checking out.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="HYDERABAD.jpg" class="card-img-top" alt="Hyderabad">
+            <div class="card-body">
+              <h5 class="card-title text-center">HYDERABAD</h5>
+              <p class="card-text">A city of contrasts, Hyderabad exudes an old-world charm of its own with the Old City (Charminar side), Hitech City (Cyberabad) and the other areas lying between the old and the new. The capital and the largest city of Telanaga, Hyderabad is home to stately mosques and noisy bazaars lined .</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+
+    <title>Rupesh</title>
+</head>
+<body>
+    
+    <div class="one">
+        <img class="top-cloud" src="cloud.png" alt="cloud">
+        <h1>Iam Rupesh</h1>
+        <h2>A Full Stack Web Developer </h2>
+        <img class="bottom-cloud" src="cloud.png" alt="cloud">
+        <img src="mountain.png" alt="Mountain">
+    </div>
+    <div class="middle-container">
+        <div class="profile">
+          <img class="first-img"src="img-1.png" alt="wallpaper">
+          <h2>Hello.</h2>
+          <p class="intro">Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio.</p>
+        </div>
+     
+        <hr>
+    </div>     
+    <div class="two">
+        <div class="skills">
+          <h2>My Skills.</h2>
+          <div class="skill-row">
+            <img class="normal" src="images.png" alt="pic">
+            <h3>Lorem & Ipsum</h3>
+            <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
+          </div>
+          <div class="skill-row">
+            <img class="code" src="code.jfif" alt="image">
+            <h3>Lorem Ipsum Dolor</h3>
+            <p >Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
+          </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+          <h2>Get In Touch</h2>
+          <h3>Lorem ipsum dolor sit amet, non elit.</h3>
+          <p class="para">Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
+          <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+        </div>
+      </div>
+      
+      
+      <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/in/rupesh-gundu-b76920238/">LinkedIn</a>
+        <a class="footer-link" href="https://twitter.com/">Twitter</a>
+        <p class="ok">© Name Surname.</p>
+      </div>
+      
+</body>
+</html>
